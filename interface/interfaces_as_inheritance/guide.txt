@@ -1,0 +1,8 @@
+dotnet add package xunit
+
+
+
+
+dotnet run --project Lab/
+
+dotnet test Lab.Tests/

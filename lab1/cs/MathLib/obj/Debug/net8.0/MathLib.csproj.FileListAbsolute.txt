@@ -1,0 +1,15 @@
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/bin/Debug/net8.0/MathLib
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/bin/Debug/net8.0/MathLib.deps.json
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/bin/Debug/net8.0/MathLib.runtimeconfig.json
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/bin/Debug/net8.0/MathLib.dll
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/bin/Debug/net8.0/MathLib.pdb
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.AssemblyInfoInputs.cache
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.AssemblyInfo.cs
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.csproj.CoreCompileInputs.cache
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.sourcelink.json
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.dll
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/refint/MathLib.dll
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.pdb
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/MathLib.genruntimeconfig.cache
+/home/user/files/university-labworks/2 course/oop/lab1/cs/MathLib/obj/Debug/net8.0/ref/MathLib.dll
