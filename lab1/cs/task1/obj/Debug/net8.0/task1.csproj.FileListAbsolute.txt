@@ -1,0 +1,15 @@
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.AssemblyInfoInputs.cache
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.AssemblyInfo.cs
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.csproj.CoreCompileInputs.cache
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.sourcelink.json
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/bin/Debug/net8.0/task1
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/bin/Debug/net8.0/task1.deps.json
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/bin/Debug/net8.0/task1.runtimeconfig.json
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/bin/Debug/net8.0/task1.dll
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/bin/Debug/net8.0/task1.pdb
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.dll
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/refint/task1.dll
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.pdb
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/task1.genruntimeconfig.cache
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task1/obj/Debug/net8.0/ref/task1.dll
