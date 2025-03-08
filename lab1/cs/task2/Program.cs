@@ -5,14 +5,12 @@ namespace Lab
 {
     public class Program
     {
-        public delegate bool Filter(int number);
-
-        public static int[] EnumerableMethodRealization(int[] array, Filter condition)
+        public static int[] EnumerableMethodRealization(int[] array, Func<int, bool> condition)
         {
             return array.Where(condition).ToArray();
-        }
+        }   
 
-        public static int[] OwnRealization(int[] array, Filter condition)
+        public static int[] OwnRealization(int[] array, Func<int, bool> condition)
         {
             int counter = 0;
             for(int i = 0; i < array.Length; i++)
@@ -20,34 +18,31 @@ namespace Lab
                 if(condition(array[i])) counter++;
             }
 
-
             int[] res = new int[counter];
-          
-            int index =0;
-
+            counter = 0;
             for (int i = 0; i < array.Length; i++)
             {
-                if (condition(array[i])) res[index++] = array[i];
+                if (condition(array[i])) res[counter++] = array[i];
             }
 
             return res;
         }
-        public static void Main(string[] args)          
+
+        public static void Main()          
         {
             Console.Write("k: ");
             int k = int.Parse(Console.ReadLine());
 
             Console.Write("Number List: ");
-            int[] array = int.Parse(Console.ReadLine());
+            int[] array = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
-            Filter condition = (num) => num % k == 0;
+            Func<int, bool> condition = (num) => num % k == 0;
 
             int[] OwnFiltered = OwnRealization(array, condition);
             int[] EnumerableFiltered = EnumerableMethodRealization(array, condition);
 
             Console.WriteLine("With method 'Where': " + string.Join(", ", EnumerableFiltered));
             Console.WriteLine("Own Realization: " + string.Join(", ", OwnFiltered));
-
         }
     }
 }
