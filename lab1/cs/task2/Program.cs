@@ -8,7 +8,7 @@ namespace Lab
         public static int[] EnumerableMethodRealization(int[] array, Func<int, bool> condition)
         {
             return array.Where(condition).ToArray();
-        }   
+        }
 
         public static int[] OwnRealization(int[] array, Func<int, bool> condition)
         {

@@ -1,0 +1,5 @@
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task3/obj/Debug/net8.0/task3.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task3/obj/Debug/net8.0/task3.AssemblyInfoInputs.cache
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task3/obj/Debug/net8.0/task3.AssemblyInfo.cs
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task3/obj/Debug/net8.0/task3.csproj.CoreCompileInputs.cache
+/home/user/files/university-labworks/2-course/4-sem/oop/lab1/cs/task3/obj/Debug/net8.0/task3.sourcelink.json
