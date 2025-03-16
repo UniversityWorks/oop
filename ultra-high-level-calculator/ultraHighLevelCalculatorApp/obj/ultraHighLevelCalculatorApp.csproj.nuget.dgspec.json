@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/user/files/university-labworks/2-course/4-sem/oop/ultra-high-level-calculator/ultraHighLevelCalculatorApp/ultraHighLevelCalculatorApp.csproj": {}
+  },
+  "projects": {
+    "/home/user/files/university-labworks/2-course/4-sem/oop/ultra-high-level-calculator/ultraHighLevelCalculatorApp/ultraHighLevelCalculatorApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/user/files/university-labworks/2-course/4-sem/oop/ultra-high-level-calculator/ultraHighLevelCalculatorApp/ultraHighLevelCalculatorApp.csproj",
+        "projectName": "ultraHighLevelCalculatorApp",
+        "projectPath": "/home/user/files/university-labworks/2-course/4-sem/oop/ultra-high-level-calculator/ultraHighLevelCalculatorApp/ultraHighLevelCalculatorApp.csproj",
+        "packagesPath": "/home/user/.nuget/packages/",
+        "outputPath": "/home/user/files/university-labworks/2-course/4-sem/oop/ultra-high-level-calculator/ultraHighLevelCalculatorApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/user/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "MessageBox.Avalonia": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
