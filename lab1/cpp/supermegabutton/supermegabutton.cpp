@@ -27,6 +27,12 @@ void SuperMegaButton::on_hello_world_button_clicked()
 
 void SuperMegaButton::on_opacity_button_clicked()
 {
+    QMessageBox msgExeption;
+    msgExeption.setText("GNOME does not support changing opacity window.");
+    msgExeption.setStandardButtons(QMessageBox::Ok);
+    msgExeption.setStyleSheet("QLabel{min-width:350 px; min-height:120px; font-size: 14px;} QPushButton{ width:150px; font-size: 13px; }");
+
+    msgExeption.exec();
 
 }
 
