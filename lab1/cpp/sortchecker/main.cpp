@@ -11,11 +11,9 @@
 #include <thread>
 namespace fs = std::filesystem;
 
-// Тип сортировки
 template<typename T>
 using SortMethod = void(*)(std::vector<T>&);
 
-// Проверка времени выполнения
 using TimeVerifier = bool(*)(long long, long long);
 
 void generateTestArrays() {
@@ -68,9 +66,11 @@ void generateTestArrays() {
     saveArray("TestArrays/reversed_arr.txt", generateReverseSortedArray(1000));
 }
 
-std::map<std::string, std::vector<int>> readTestArrays() {
+std::map<std::string, std::vector<int>> readTestArrays() 
+{
     std::map<std::string, std::vector<int>> arrays;
-    for (const auto& entry : fs::directory_iterator("TestArrays")) {
+    for (const auto& entry : fs::directory_iterator("TestArrays")) 
+    {
         std::ifstream file(entry.path());
         std::string content;
         std::getline(file, content);
