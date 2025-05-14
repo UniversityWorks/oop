@@ -62,24 +62,18 @@ void SuperMegaButton::on_super_button_clicked()
 
 void SuperMegaButton::on_hello_world_checkbox_stateChanged(int state)
 {
-    if (state == Qt::Checked && !checkboxOrder.contains("hello"))
-        checkboxOrder.append("hello");
-    else if (state == Qt::Unchecked)
-        checkboxOrder.removeAll("hello");
+    if (state == Qt::Checked && !checkboxOrder.contains("hello")) checkboxOrder.append("hello");
+    else if (state == Qt::Unchecked)  checkboxOrder.removeAll("hello");
 }
 
 void SuperMegaButton::on_opacity_checkbox_stateChanged(int state)
 {
-    if (state == Qt::Checked && !checkboxOrder.contains("opacity"))
-        checkboxOrder.append("opacity");
-    else if (state == Qt::Unchecked)
-        checkboxOrder.removeAll("opacity");
+    if (state == Qt::Checked && !checkboxOrder.contains("opacity")) checkboxOrder.append("opacity");
+    else if (state == Qt::Unchecked) checkboxOrder.removeAll("opacity");
 }
 
 void SuperMegaButton::on_bg_checkbox_stateChanged(int state)
 {
-    if (state == Qt::Checked && !checkboxOrder.contains("bg"))
-        checkboxOrder.append("bg");
-    else if (state == Qt::Unchecked)
-        checkboxOrder.removeAll("bg");
+    if (state == Qt::Checked && !checkboxOrder.contains("bg")) checkboxOrder.append("bg");
+    else if (state == Qt::Unchecked) checkboxOrder.removeAll("bg");
 }
