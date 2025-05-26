@@ -5,7 +5,7 @@
 #include <QDebug>
 #include <cmath>
 
-//
+
 void OperationCommand::execute() {
     *addTrigger = false;
     *subTrigger = false;
@@ -128,7 +128,7 @@ void MainWindow::setupScientificPanel()
     btnPi = new QPushButton("π", this);
     btnSqrt = new QPushButton("√", this);
     btnPower = new QPushButton("x^y", this);
-    btnLog = new QPushButton("ln", this);
+    btnLog = new QPushButton("log", this);
 
 
     btnPi->setSizePolicy(QSizePolicy::Preferred, QSizePolicy::Preferred);
@@ -173,20 +173,22 @@ void MainWindow::toggleScientificPanel()
     }
 }
 
+
+
 void MainWindow::NumPressed()
 {
     QPushButton *button = (QPushButton *)sender();
     QString butVal = button->text();
     QString displayVal = ui->Output->text();
 
-    if(displayVal.toDouble() == 0 || displayVal == "0") {
+
+    if(displayVal.toDouble() == 0 && !displayVal.contains('.')) {
         ui->Output->setText(butVal);
     } else {
-        QString newVal = displayVal + butVal;
-        double dblNewVal = newVal.toDouble();
-        ui->Output->setText(QString::number(dblNewVal, 'g', 16));
-    }
 
+        QString newVal = displayVal + butVal;
+        ui->Output->setText(newVal);
+    }
 
     lastValue = displayVal.toDouble();
 }

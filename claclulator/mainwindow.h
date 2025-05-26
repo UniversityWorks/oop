@@ -12,7 +12,8 @@ namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
 
 
-class Command {
+class Command
+{
 public:
     virtual ~Command() {}
     virtual void execute() = 0;
@@ -98,7 +99,8 @@ private:
 };
 
 
-class OperationCommand : public Command {
+class OperationCommand : public Command
+{
 public:
     OperationCommand(MainWindow* window, QString displayText, double calcValue,
                      bool* addTrigger, bool* subTrigger, bool* mulTrigger,
