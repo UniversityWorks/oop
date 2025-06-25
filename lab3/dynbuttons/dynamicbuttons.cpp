@@ -11,6 +11,8 @@ int get_value_to = 0;
 int get_value_move = 0;
 int get_value_mul = 0;
 
+ bool already_clicked = false;
+
 std::vector<QPushButton* > generated_buttons;
 
 
@@ -123,7 +125,7 @@ void DynamicButtons::on_more_button_pressed()
 void DynamicButtons::showNumberInfo(int number)
 {
     QString text;
-    bool already_clicked = false;
+
     if(!already_clicked)
     {
         already_clicked = true;
@@ -146,6 +148,7 @@ void DynamicButtons::showNumberInfo(int number)
     }
     else
     {
+        text.clear();
         text = QString("Ви вже натискали на кнопку.");
     }
 
